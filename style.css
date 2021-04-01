@@ -1,0 +1,38 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+}
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+     background: url("imgs/cover.jpg") no-repeat center center/cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    filter: blur(0px);
+
+}
+
+#loading
+{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+
+}
+
